@@ -4,7 +4,7 @@
 
 Welcome to the UART Implementation on FPGA project! This project aims to demonstrate the integration of UART (Universal Asynchronous Receiver/Transmitter) communication protocol onto an FPGA (Field-Programmable Gate Array) platform. UART serves as a fundamental method for serial communication between electronic devices, enabling data transmission without requiring synchronized clocks. By implementing UART on an FPGA, this project showcases a versatile and customizable solution for enabling serial communication in various embedded systems applications. Through this project, users can gain insights into FPGA development, serial communication protocols, and practical FPGA-based system design.
 
-![UART protocol](https://raw.githubusercontent.com/maduwanthasl/UART-implementation-on-FPGA/main/Images/uart_rx_tx.png)
+![UART protocol](https://github.com/vkymzp/uart/blob/master/Images/uart_rx_tx.png)
 
 ## What is UART?
 
@@ -16,7 +16,7 @@ UART, or Universal Asynchronous Receiver/Transmitter, is a hardware component an
 
 #### Transmitter Operation:
 
-![UART peripherals](https://raw.githubusercontent.com/maduwanthasl/UART-implementation-on-FPGA/main/Images/UART%20PERIPHERALS.png)
+![UART peripherals](https://github.com/vkymzp/uart/blob/master/Images/UART%20PERIPHERALS.png)
 
 - **Parallel-to-Serial Conversion:** The transmitter receives data in parallel format from the host device, typically in byte-sized chunks (8 bits). It converts this parallel data into a serial stream of bits for transmission over a communication channel.
 - **Frame Structure:** Each byte of data is framed by start and stop bits. The start bit signals the beginning of a data byte, while the stop bit(s) indicate its end. This framing allows the receiver to synchronize with the data stream.
@@ -123,7 +123,7 @@ endmodule
 
 #### Testbench results
 
-![Test bench results](https://raw.githubusercontent.com/maduwanthasl/UART-implementation-on-FPGA/main/Images/TB_Sim.png)
+![Test bench results](https://github.com/vkymzp/uart/blob/master/Images/TB_Sim.png)
 
 ## Appendix
 
